@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Collection Disclosure - CiFlow</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #27ae60;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+            border-left: 4px solid #27ae60;
+            padding-left: 15px;
+        }
+        h3 {
+            color: #2c3e50;
+            margin-top: 25px;
+        }
+        .no-collection {
+            background-color: #d5f4e6;
+            padding: 20px;
+            border-left: 4px solid #27ae60;
+            margin: 20px 0;
+            border-radius: 4px;
+            font-size: 1.1em;
+            font-weight: bold;
+            text-align: center;
+        }
+        .highlight {
+            background-color: #e8f4fd;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .good {
+            color: #27ae60;
+            font-weight: bold;
+        }
+        .bad {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        ul, ol {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .data-flow {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 6px;
+            margin: 20px 0;
+            font-family: 'Courier New', monospace;
+            border: 1px solid #ddd;
+        }
+        .contact-info {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 6px;
+            margin: 20px 0;
+        }
+        .effective-date {
+            font-style: italic;
+            color: #666;
+            text-align: center;
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
+            margin-top: 40px;
+        }
+        .check {
+            color: #27ae60;
+            font-size: 1.2em;
+        }
+        .cross {
+            color: #e74c3c;
+            font-size: 1.2em;
+        }
+        strong {
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Data Collection Disclosure - CiFlow</h1>
+        
+        <p><strong>Last updated:</strong> July 13, 2025</p>
+
+        <h2>Data Collection Statement</h2>
+        
+        <div class="no-collection">
+            <span class="check">✅</span> CiFlow does NOT collect, store, or transmit any personal user data to external servers.
+        </div>
+
+        <h2>What This Means</h2>
+
+        <h3><span class="check">✅</span> Local Storage Only</h3>
+        <ul>
+            <li>All your business data (inventory, sales, receipts) is stored <strong>locally on your device</strong></li>
+            <li>No personal information is sent to our servers</li>
+            <li>No user accounts or registration required</li>
+            <li>No cloud storage of your business data</li>
+        </ul>
+
+        <h3><span class="check">✅</span> No Personal Data Collection</h3>
+        <p>We do <strong>NOT</strong> collect:</p>
+        <ul>
+            <li><span class="cross">❌</span> Names, addresses, or contact information</li>
+            <li><span class="cross">❌</span> Business financial data</li>
+            <li><span class="cross">❌</span> Customer information</li>
+            <li><span class="cross">❌</span> Payment details</li>
+            <li><span class="cross">❌</span> Location data</li>
+            <li><span class="cross">❌</span> Photos or files you create in the app</li>
+            <li><span class="cross">❌</span> Personal preferences or settings</li>
+        </ul>
+
+        <h3><span class="check">✅</span> Third-Party Services</h3>
+        <p>The only data collection comes from:</p>
+        
+        <div class="highlight">
+            <strong>Google AdMob (Advertising)</strong>
+            <ul>
+                <li>Collects advertising identifiers for ad personalization</li>
+                <li>This is handled entirely by Google, not by us</li>
+                <li>You can opt out of personalized ads in your device settings</li>
+                <li>No personal business data is shared with AdMob</li>
+            </ul>
+        </div>
+
+        <h2>Your Data, Your Control</h2>
+
+        <h3>Complete Ownership</h3>
+        <ul>
+            <li><span class="good">✓</span> You own 100% of your business data</li>
+            <li><span class="good">✓</span> Data stays on your device at all times</li>
+            <li><span class="good">✓</span> Uninstalling the app removes all data</li>
+            <li><span class="good">✓</span> No data recovery needed from us</li>
+        </ul>
+
+        <h3>No Data Requests</h3>
+        <ul>
+            <li><span class="good">✓</span> We cannot access your business information</li>
+            <li><span class="good">✓</span> We cannot provide data exports (you control your own exports)</li>
+            <li><span class="good">✓</span> We cannot delete your data remotely (you control deletion)</li>
+            <li><span class="good">✓</span> We have no servers storing your information</li>
+        </ul>
+
+        <h2>Technical Details</h2>
+
+        <h3>App Permissions</h3>
+        <ul>
+            <li><strong>Camera:</strong> Only for barcode scanning (processed locally)</li>
+            <li><strong>Storage:</strong> Only for saving files on your device</li>
+            <li><strong>Internet:</strong> Only for displaying ads, not for data transmission</li>
+        </ul>
+
+        <h3>Data Flow</h3>
+        <div class="data-flow">
+Your Device ← → Your Data (Local Storage)<br>
+Your Device ← → Google AdMob (Ads Only)<br>
+Your Device <span class="cross">✗</span> Our Servers (NO CONNECTION)
+        </div>
+
+        <h2>Compliance</h2>
+        <p>This disclosure complies with:</p>
+        <ul>
+            <li>Google Play Data Safety requirements</li>
+            <li>GDPR Article 13 (Information to be provided)</li>
+            <li>CCPA transparency requirements</li>
+            <li>App store data collection policies</li>
+        </ul>
+
+        <h2>Contact Information</h2>
+        <div class="contact-info">
+            <p><strong>Email:</strong> ccjhayro.91@gmail.com<br>
+            <strong>Developer:</strong> CiFlow Development Team</p>
+            
+            <div class="highlight">
+                <strong>Note:</strong> Since we don't collect your data, most inquiries about data access, deletion, or export should be handled directly through your device and app settings.
+            </div>
+        </div>
+
+        <div class="effective-date">
+            <strong>Summary:</strong> CiFlow is designed with privacy by default. Your business data never leaves your device, ensuring complete privacy and control over your information.
+        </div>
+    </div>
+</body>
+</html>
